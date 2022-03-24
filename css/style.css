@@ -1,0 +1,411 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap');
+
+a{
+    text-decoration: none;
+}
+body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    font-family: 'Merriweather';
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.header_body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 12vh;
+    padding: 0 5%;
+}
+.header_body_logo{
+    font-size: 22px;
+    font-weight: 700;
+}
+.header_body_logo a{
+    color: #414141;
+}
+.header_body_content{
+    display: flex;
+    justify-content: space-between;
+    color: #000000;
+}
+.header_body_content_adress, .header_body_content_number{
+    margin: 0 -2%;
+}
+.header_body_content_adress{
+    display: flex;
+}
+.header_body_content_adress_icon{
+    width: 35px;
+    height: 35px;
+}
+.header_body_content_adress_text{
+    font-size: 14px;
+    font-weight: 400;
+    align-self: center;
+}
+.header_body_content_adress_text a{
+color: #000000;
+}
+.header_body_content_number{
+    display: flex;
+}
+.header_body_content_number_body{
+    margin-top: 4%;
+}
+.header_body_content_number_icon{
+    width: 35px;
+    height: 35px;
+}
+.header_body_content_number_body_number{
+    font-size: 14px;
+    font-weight: 400;
+}
+.header_body_content_number_body_number a{
+    color: black;
+}
+
+.header_body_content_number_body_time{
+    font-size: 12px;
+}
+
+.header_body_content_number_body_number a:hover, .header_body_content_adress_text a:hover{
+    color: rgb(124, 112, 91);
+}
+
+.main{
+    background-color: #110031d0;
+    background-image: url(../img/main/main_bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main_body_nav_body{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 9vh;
+}
+.main_body_nav_body a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+.main_body_text{
+    height: 63vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 58px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 40px #000000;
+}
+.main_body_nav_body a:hover{
+    color: rgb(221, 197, 157);
+}
+
+.main_1{
+    background-image: none;
+}
+
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 28vh;
+}
+.about_body{
+    text-align: center;
+    color: #5B5B5B;
+    font-size: 24px;
+    font-weight: regular;
+}
+.title_1{
+    margin-top: 5vh;
+}
+
+.stats{
+    display: flex;
+    height: 14vh;
+    -width: 100vw;
+    background-color: #030100d0;
+    align-items: center;
+    justify-content: center;
+
+}
+.stats_body{
+    display: flex;
+    width: 100vw;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+    color: wheat;
+    font-size: 24px;
+    font-weight: regular;
+}
+.speciality-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    -background-color: #31302e4b;
+
+}
+.speciality{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+}
+.speciality_body{
+    align-items: center;
+    width: 100vw;
+}
+.speciality_title{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: regular;
+    color: #414141;
+}
+.speciality_cards{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.9%;
+    padding: 0 20%;
+}
+.speciality_cards_card a{
+    color: #414141;
+}
+.speciality_cards_block1{
+    display: flex;
+    justify-content: space-around;
+}
+.speciality_cards_block2{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 5%;
+}
+.speciality_cards_card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    -margin: 0 3%;
+}
+.speciality_cards_card_img{
+    width: 210px;
+    height: 140px;
+    object-fit: cover;
+    display: flex;
+    align-self: center;
+}
+.speciality_cards_card_name{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 3.5%;
+}
+.speciality_cards_card_text{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 3%;
+}
+
+
+.contline{
+    display: flex;
+    height: 20vh;
+    background-color: #110031d0;
+    justify-content: center;
+    color: wheat;
+    align-items: center;
+}
+.contline_1{
+    background-color: white;
+    color: #414141 !important;
+}
+.a_1{
+    color: #414141 !important;
+}
+.contline_body_text{
+    font-size: 36px;
+    font-weight: regular;
+    text-align: center;
+}
+.contline_body_number{
+    display: flex;
+}
+.contline_body_number_img{
+    width: 90px;
+    height: 90px;
+    margin: 3% -3% 0 0;
+}
+.contline_body_number_text{
+    font-size: 48px;
+    font-weight: regular;
+    display: flex;
+    align-self: center;
+}
+.contline_body_number_text a{
+    color: wheat;
+}
+.contline_Contacts{
+    background-color: #ffffffd0;
+    height: 15vh;
+    align-items: flex-start;
+}
+.contline_body_number_text_Contacts a{
+    color: #5B5B5B;
+}
+
+.contacts{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 54vh;
+    -width: 100vw;
+
+}
+.contacts_body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    -width: 100vw;
+}
+.contacts_body_title{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: regular;
+    color: #414141;
+}
+.contacts_body_map{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 4%;
+}
+.contacts_body_map_map{
+    display: flex;
+    width: 640px;
+    height: 320px;
+    background-color: #C4C4C4;
+
+}
+.contacts_body_map_text{
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: regular;
+    color: #5B5B5B;
+    margin-top: 3%;
+}
+
+
+
+
+.footer{
+    display: flex;
+    height: 45vh;
+    background-color: #110031d0;
+    justify-content: center;
+    align-items: center;
+}
+.footer_body{
+    display: flex;
+    width: 100vw;
+    flex-direction: row;
+    justify-content: space-around;
+    color: wheat;
+    padding: 0 2%;
+    margin-top: -5%;
+}
+.footer_body_col1_logo, .footer_body_col2_head, .footer_body_col3_head{
+    font-size: 24px;
+    font-weight: 600;
+}
+.footer_body_col1_year, .footer_body_col2_siteMap, .footer_body_col3_block{
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 5%;
+}
+.footer_body_col1_logo a{
+    color: wheat;
+}
+.footer_body_col2_siteMap_text{
+    margin-top: 2%;
+    color: wheat;
+}
+.footer_body_col2_siteMap_text a{
+    color: wheat;
+}
+.footer_body_col3_block_number, .footer_body_col3_block_email{
+    margin-top: 2%;
+}
+.footer_body_col3_block_number a, .footer_body_col3_block_email a{
+    color: wheat;
+}
+.footer_body_col2_siteMap_text a:hover, .footer_body_col3_block_number a:hover, .footer_body_col3_block_email a:hover{
+    color: rgb(255, 255, 239);
+}
+
+
+
+@media (max-width: 1260px){
+    .main_body_text{
+        font-size: 45px;
+    }
+    .speciality_cards{
+        padding: 0 5%;
+    }
+}
+@media (max-width: 1150px){
+    .about_body, .stats_body{
+        font-size: 20px;
+    }
+    .speciality_title, .contacts_body_title,.contline_body_text{
+        font-size: 30px;
+    }
+    .contline_body_number_text{
+        font-size: 40px;
+    }
+    .contline_body_number_img{
+        width: 70px;
+        height: 70px;
+    }
+    .footer_body_col1_logo, .footer_body_col2_head, .footer_body_col3_head{
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .footer_body_col1_year, .footer_body_col2_siteMap, .footer_body_col3_block{
+        font-size: 14px;
+        font-weight: 400;
+    }
+}
+@media (max-width: 950px){
+    .main_body_text{
+        font-size: 35px;
+    }
+}
+@media (max-width: 780px){
+    .main_body_text{
+        text-align: center;
+    }
+}
+@media (max-width: 670px){
+}
+@media (max-width: 375px){
+    font-weight: ;
+}
